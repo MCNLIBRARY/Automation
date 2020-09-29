@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-28T15:39:06 IST" name="Default suite" finished-at="2020-09-28T15:39:16 IST" duration-ms="10276">
+  <suite started-at="2020-09-29T11:48:31 IST" name="Default suite" finished-at="2020-09-29T11:48:43 IST" duration-ms="11425">
     <groups>
     </groups>
-    <test started-at="2020-09-28T15:39:06 IST" name="Default test" finished-at="2020-09-28T15:39:16 IST" duration-ms="10276">
+    <test started-at="2020-09-29T11:48:31 IST" name="Default test" finished-at="2020-09-29T11:48:43 IST" duration-ms="11425">
       <class name="TestNGPackage1.FirstTestNGTest">
-        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:TestNGPackage1.FirstTestNGTest@48fa0f47]" started-at="2020-09-28T15:39:06 IST" name="BrowserSetup" finished-at="2020-09-28T15:39:14 IST" duration-ms="8748" status="PASS">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:TestNGPackage1.FirstTestNGTest@778d1062]" started-at="2020-09-29T11:48:31 IST" name="BrowserSetup" finished-at="2020-09-29T11:48:41 IST" duration-ms="9600" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserSetup -->
-        <test-method signature="ExcelRead()[pri:0, instance:TestNGPackage1.FirstTestNGTest@48fa0f47]" started-at="2020-09-28T15:39:14 IST" name="ExcelRead" finished-at="2020-09-28T15:39:15 IST" duration-ms="486" status="PASS">
+        <test-method signature="ExcelRead()[pri:0, instance:TestNGPackage1.FirstTestNGTest@778d1062]" started-at="2020-09-29T11:48:41 IST" name="ExcelRead" finished-at="2020-09-29T11:48:42 IST" duration-ms="665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExcelRead -->
-        <test-method signature="ExcelWrite()[pri:0, instance:TestNGPackage1.FirstTestNGTest@48fa0f47]" started-at="2020-09-28T15:39:15 IST" name="ExcelWrite" finished-at="2020-09-28T15:39:15 IST" duration-ms="104" status="PASS">
+        <test-method signature="ExcelWrite()[pri:0, instance:TestNGPackage1.FirstTestNGTest@778d1062]" started-at="2020-09-29T11:48:42 IST" name="ExcelWrite" finished-at="2020-09-29T11:48:42 IST" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExcelWrite -->
-        <test-method signature="verifyHomepageTitle2()[pri:1, instance:TestNGPackage1.FirstTestNGTest@48fa0f47]" started-at="2020-09-28T15:39:15 IST" name="verifyHomepageTitle2" finished-at="2020-09-28T15:39:15 IST" duration-ms="19" status="PASS">
+        <test-method signature="verifyHomepageTitle2()[pri:1, instance:TestNGPackage1.FirstTestNGTest@778d1062]" started-at="2020-09-29T11:48:42 IST" name="verifyHomepageTitle2" finished-at="2020-09-29T11:48:42 IST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomepageTitle2 -->
-        <test-method signature="verifyHomepageTitle1()[pri:2, instance:TestNGPackage1.FirstTestNGTest@48fa0f47]" started-at="2020-09-28T15:39:15 IST" name="verifyHomepageTitle1" finished-at="2020-09-28T15:39:15 IST" duration-ms="19" status="FAIL">
+        <test-method signature="verifyHomepageTitle1()[pri:2, instance:TestNGPackage1.FirstTestNGTest@778d1062]" started-at="2020-09-29T11:48:42 IST" name="verifyHomepageTitle1" finished-at="2020-09-29T11:48:42 IST" duration-ms="17" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Mercury] but found [Google]]]>
@@ -71,7 +71,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomepageTitle1 -->
-        <test-method is-config="true" signature="BrowserShutdown()[pri:0, instance:TestNGPackage1.FirstTestNGTest@48fa0f47]" started-at="2020-09-28T15:39:15 IST" name="BrowserShutdown" finished-at="2020-09-28T15:39:16 IST" duration-ms="821" status="PASS">
+        <test-method is-config="true" signature="BrowserShutdown()[pri:0, instance:TestNGPackage1.FirstTestNGTest@778d1062]" started-at="2020-09-29T11:48:42 IST" name="BrowserShutdown" finished-at="2020-09-29T11:48:43 IST" duration-ms="911" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserShutdown -->
