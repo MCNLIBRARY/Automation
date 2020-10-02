@@ -10,7 +10,7 @@ import java.io.File;
 
 public class ScreenShot {
 	
-	public static void main() throws IOException
+	public static void main(String[] args) throws IOException
 		{
 			System.setProperty("webdriver.edge.driver", "C:\\edgeDriver\\msedgedriver.exe");
 
@@ -20,7 +20,7 @@ public class ScreenShot {
 			//launching the specified URL
 			driver.get("https://www.amazon.in//");
 	
-			CaptureAndSaveScreenShot(driver,"C:\\Users\\nivit\\Documents");
+			CaptureAndSaveScreenShot(driver,"C:\\Users\\nivit\\Documents\\FirstScreenShot.png");
 	
 		}
 	
