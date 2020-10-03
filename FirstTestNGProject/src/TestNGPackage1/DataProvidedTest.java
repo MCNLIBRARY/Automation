@@ -14,9 +14,9 @@ public class DataProvidedTest {
 	    public Object[][] getDataFromDataprovider(){
 	    return new Object[][] 
 	    	{
-	            { "Gowri", "India" },
-	            { "Krishna", "UK" },
-	            { "Vasanth", "USA" }
+	            { "Gowri", "New York" },
+	            { "Krishna", "New Jersey" },
+	            { "Vasanth", "Florida" }
 	        };
 
 	    }
