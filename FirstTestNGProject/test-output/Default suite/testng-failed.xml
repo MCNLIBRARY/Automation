@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGPackage1.FirstTestNGTest">
+      <class name="TestNGPackage1.TestNGXML">
         <methods>
-          <include name="verifyHomepageTitle1"/>
-          <include name="BrowserSetup"/>
+          <include name="verifyXMLParameters"/>
           <include name="BrowserShutdown"/>
+          <include name="BrowserSetup"/>
         </methods>
-      </class> <!-- TestNGPackage1.FirstTestNGTest -->
+      </class> <!-- TestNGPackage1.TestNGXML -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

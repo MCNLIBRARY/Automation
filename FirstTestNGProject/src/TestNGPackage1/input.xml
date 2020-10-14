@@ -1,0 +1,13 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+<suite name="FirstTestNGProject" thread-count="3" >
+<parameter name="author" value="Guru99" />
+<parameter name="searchKey" value="Apple iPhone" />
+<test name="testGuru">
+<parameter name="searchKey" value="Apple iPad" />
+<classes>
+<class name="TestNGPackage1.TestNGXML"></class>
+<class name="TestNGPackage1.XMLClass2"></class>
+</classes>
+</test>
+</suite>
